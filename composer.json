@@ -1,0 +1,28 @@
+{
+    "name": "vtardia/my-contacts",
+    "description": "Simple RESTful API for contacts management",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vito Tardia",
+            "email": "vito@tardia.me"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "slim/slim": "*",
+        "slim/extras": "*",
+        "slim/middleware": "*",
+        "monolog/monolog": "*",
+        "j4mie/paris": "*",
+        "flynsarmy/slim-monolog": "*"
+    },
+    "archive": {
+        "exclude": ["vendor", ".DS_Store", "*.log"]
+    },
+    "autoload": {
+        "psr-0": {
+            "API": "lib/"
+        }
+    }
+}
